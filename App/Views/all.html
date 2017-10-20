@@ -1,0 +1,206 @@
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./Content/img/1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="./Content/img/2.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="./Content/img/3.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="./Content/img/4.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="./Content/img/5.jpg">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<ul class="list">
+    <li>
+        <i class="icon iconfont icon-shoucang"></i>
+        <span>车商城</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-28" style="background:#F99E41;"></i>
+        <span>分期购车</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-facebook" style="background:#FD6766;"></i>
+        <span>团队活动</span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-tianbiao" style="background:#4183FE;"></i>
+        <span>找二手车</span>
+    </li>
+</ul>
+<div class="pic">
+    <img src="./Content/img/pic.jpg">
+</div>
+<h1>
+    车主服务
+</h1>
+<ul class="server">
+    <li>
+        <i class="icon iconfont icon-wode"></i>
+        <span>
+            油卡充值
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-pingguo"></i>
+        <span>
+            低价保险
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-lajitong"></i>
+        <span>
+            4S店保养
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-yibangding"></i>
+        <span>
+            品质轮胎
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-youdaoyunbiji"></i>
+        <span>
+            车品商城
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-weixin1"></i>
+        <span>
+            洗车
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-quanbudingdan-01"></i>
+        <span>
+            违章代缴
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-tian"></i>
+        <span>
+            免费测评
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-random"></i>
+        <span>
+            查周边
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-gengduo"></i>
+        <span>
+            车主卡
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-kefu"></i>
+        <span>
+            领券保养
+        </span>
+    </li>
+    <li>
+        <i class="icon iconfont icon-infenicon18"></i>
+        <span>
+            全部
+        </span>
+    </li>
+</ul>
+<aside>
+    <p>限时抢购</p>
+    <p><span>13</span>:<span>13</span>:<span>13</span></p>
+</aside>
+<div id="roll">
+    <div id="scroller">
+        <dl>
+            <dt><img src="./Content/img/pic1.jpg" alt=""></dt>
+            <dd>
+                <p>补胎工具简易套装</p>
+                <span>￥9.9</span><u>28元</u>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="./Content/img/pic1.jpg" alt=""></dt>
+            <dd>
+                <p>补胎工具简易套装</p>
+                <span>￥9.9</span><u>28元</u>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="./Content/img/pic1.jpg" alt=""></dt>
+            <dd>
+                <p>补胎工具简易套装</p>
+                <span>￥9.9</span><u>28元</u>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="./Content/img/pic1.jpg" alt=""></dt>
+            <dd>
+                <p>补胎工具简易套装</p>
+                <span>￥9.9</span><u>28元</u>
+            </dd>
+        </dl>
+    </div>
+</div>
+<aside>
+    <p>限时抢购</p>
+    <p class="more">更多活动></p>
+</aside>
+<div class="rich">
+    <dl>
+        <dt>
+            <p>测身价炫富</p>
+            <h5>身价大PK</h5>
+        </dt>
+        <dd>
+            <img src="./Content/img/dpic.jpg">
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+        <p>测身价炫富</p>
+        <h5>身价大PK</h5>
+        </dt>
+        <dd>
+            <img src="./Content/img/dpic1.jpg">
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+        <p>测身价炫富</p>
+        <h5>身价大PK</h5>
+        </dt>
+        <dd>
+            <img src="./Content/img/dpic2.jpg">
+        </dd>
+    </dl>
+</div>
+<aside>
+    <p>猜你喜欢</p>
+    <p class="more">更多></p>
+</aside>
+<div class="car">
+    <dl ng-repeat="user in userInfo | filter: num">
+        <dt>
+            <img ng-src="{{user.src}}">
+        </dt>
+        <dd>
+            <p>{{user.tit}}</p>
+            <h5>{{user.tit}}</h5>
+            <span>{{user.nowmoney}}元</span><u>{{user.exp}}万</u>
+        </dd>
+    </dl>
+</div>
+<div class="btn" ng-click="load()">点击加载</div>
